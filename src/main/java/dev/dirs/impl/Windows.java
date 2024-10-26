@@ -22,9 +22,10 @@ public final class Windows {
 
   static {
     if (Constants.operatingSystem == 'w') {
-      System.loadLibrary("combase");
-      System.loadLibrary("ole32");
-      System.loadLibrary("shell32");
+      // String sysdir = System.getenv("WINDIR") + "\\system32";
+      System.load("C:\\Windows\\System32\\combase.dll");
+      System.load("C:\\Windows\\System32\\ole32.dll");
+      System.load("C:\\Windows\\System32\\shell32.dll");
     }
   }
 
