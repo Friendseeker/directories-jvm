@@ -2,7 +2,7 @@ name: Linux build
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, topic/windows-ffi ]
   pull_request:
     branches: [ main ]
 
