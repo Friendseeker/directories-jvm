@@ -7,7 +7,6 @@ lazy val root = (project in file("."))
     version              := "26",
     homepage             := Some(url("https://github.com/dirs-dev/directories-jvm")),
     licenses             := Seq("Mozilla Public License 2.0" -> url("https://opensource.org/licenses/MPL-2.0")),
-    fork                 := true,
     // The javaHome setting can be removed if building against the latest installed version of Java is acceptable.
     // Running the tests requires removing the setting.
     // It can also be changed to point to a different Java version.
